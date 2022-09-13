@@ -1,0 +1,786 @@
+body {
+    background-color: #F8F4F4;
+    height: 100%;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1d1b1b;
+}
+
+.wrapper {
+        width: 1428px;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+/*Шапка*/
+
+.header-menu {
+    background-color: #fff;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 80px;
+    /*align-items: left;*/
+}
+
+.horizontal {
+    /*margin-left: 375px;*/
+    padding:0;
+    margin: 84px 0px 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    }
+
+.horizontal-li {
+    /*display: flex;
+    float: left;*/
+    position: relative;
+    padding:0 20px;
+    }
+
+.main-menu {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height 
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;*/
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #1d1b1b;
+    }
+
+    .main-menu:hover {
+    text-decoration-line: underline;
+}
+
+.vline {
+    font-size: 16px;
+    font-weight: 900;
+    color: #000;
+    margin: 0px 1px;
+}
+
+/*.logo-img {
+    position: absolute;
+    width: 243px;
+    height: 72px;
+    left: 80px;
+    top: 48px;
+    }*/
+
+.logo {
+    /*position: absolute;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 20px 20px 0px;
+    width: 243px;
+    height: 72px;
+    left: 80px;
+    top: 48px;
+}
+
+.logo:hover {
+    height: 74px;
+}
+
+.user-icon {
+    /*position: relative;
+    left: 1288px;*/
+    display: flex;
+    justify-content: space-between;
+    /*padding:0 10px;*/
+    padding-left: 20px;
+    margin: 84px 0px 40px 0px;
+}
+
+.cart-icon {
+    /*position: relative;
+    left: 1332px;*/
+    display: flex;
+    justify-content: space-between;
+    /*padding:0 10px;*/
+    margin: 84px 0px 40px 0px;
+}
+
+.user-img {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    padding:0 10px;
+}
+
+.user-img:hover {
+    position: relative;
+    width: 23px;
+    height: 26px;
+    padding:0 10px;
+}
+
+.cart-img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    padding:0 10px;
+}
+
+.cart-img:hover {
+    position: relative;
+    width: 24px;
+    height: 27px;
+    padding:0 10px;
+}
+
+.leng {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #1d1b1b;
+}
+
+/*Фото-слайди*/
+
+.header-slider {
+    background-color: green;
+    height: 550px;
+}
+
+.header2-slide {
+    width: 1428px;
+    height: 551px;
+}
+
+/*Ціль*/
+
+.aim-container {
+    background-color: #fff;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aim-title {
+    width: 640px;
+    height: 142px;
+    margin-left: 72px;
+    margin-bottom: 36px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #489247;
+}
+
+.aim-text {
+    width: 619px;
+    height: 273px;
+    margin-left: 72px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #1d1b1b;
+}
+
+.aim-img {
+    width: 622px;
+    height: 478px;
+    border-radius: 8px;
+    margin-right: 72px;
+}
+
+.aim-text-plus {
+    width: 1240px;
+    margin-left: 72px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1d1b1b;
+    padding-bottom: 28px;
+}
+
+.aim-title-plus {
+    width: 1280px;
+    height: 116px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #489247;
+    text-align: center;
+    margin: 0px 0px 24px 72px;
+}
+
+.img-row1, .img-row2 {
+    background-color: #fff;
+    /*width: 100%;*/
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 56px;
+}
+
+.aim-img1 {
+    width: 400px;
+    height: 248px;
+    border-radius: 8px;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+/*Стати учасником кооперативу*/
+
+.membership {
+    background-color: #fff;
+    width: 100%;
+}
+
+.member {
+    /*width: 100%;*/
+    height: 70px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 71px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #489247;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+/*.variants-text {
+    margin: 28px 0px 0px 76px;
+    padding-bottom: 36px;
+}*/
+
+.string {
+    width: 100%;
+    height: 36px;
+    background: rgba(72, 146, 71, 0.59);
+}
+
+.member-vars {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 1428px;
+    /*align-self: center;*/
+}
+
+.var-card {
+    width: 336px;
+    height: 560px;
+    background: rgba(72, 146, 71, 0.24);
+}
+
+.var-card-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    color: #1d1b1b;
+    text-align: center;
+    margin-bottom: 48px;
+    height: 48px;
+    padding-top: 24px;
+}
+
+.var-card-list {
+    padding: 0px 12px;
+    margin-left: 48px;
+    margin-top: 24px;
+    margin-bottom: 52px;
+    height: 180px;
+}
+
+.var-card-list-item {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1d1b1b;
+    margin-bottom: 12px;
+}
+
+.var-card-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1d1b1b;
+}
+
+.var-card-price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #489247;
+    padding: 0px 12px;
+}
+
+.var-card-submit {
+    display: flex;
+    margin-top: 24px;
+    justify-content: center;
+    width: 304px;
+    height: 48px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: #489247;
+    cursor: pointer;
+    margin-left: 16px;
+    background-color: rgba(72, 146, 71, 0.01);
+}
+
+.submit-img {
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+}
+
+.submit-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1d1b1b;
+    margin-left: 16px;
+    padding: 8px 0px 12px 0px;
+}
+
+.referal {
+    text-decoration: none;
+    padding: 8px 0px 12px 0px;
+}
+
+/*Команда*/
+
+.team {
+    max-width: 1428px;
+    height: 848px;
+    background: #489247;
+    padding: 36px 80px 44px 80px;
+}
+
+.team-title {
+    height: 70px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 71px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-member-card {
+    width: 288px;
+    height: 500px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.team-member-name {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #fff;
+    margin-top: 32px;
+}
+
+.tyre {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.team-member-bio {
+    height: 220px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
+
+.social-icon {
+    padding: 0px 16px;
+}
+
+/*Проекти*/
+
+.projects {
+    max-width: 1428px;
+    height: 980px;
+    background: #fff;
+    padding: 72px;
+}
+
+.projects-title {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 38px;
+    color: #1d1b1b;
+    text-transform: uppercase;
+    padding-bottom: 44px;
+}
+
+.pro3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1076px;
+    margin: 0px 104px;
+}
+
+.project-card3 {
+    width: 360px;
+    height: 440px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.project-card2 {
+    width: 500px;
+    height: 440px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.pr-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    color: #1d1b1b;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.pr-descr3 {
+    height: 172px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #1d1b1b;
+    text-align: left;
+}
+
+.pr-descr2 {
+    height: 152px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #1d1b1b;
+    text-align: left;
+}
+
+.pr-page {
+    width: 75px;
+    height: 45px;
+    border: 1px solid #B4B4B4;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1d1b1b;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+/*Підвал*/
+
+footer {
+    max-width: 1428px;
+    height: 656px;
+    background: #fff;
+}
+
+.footer-up {
+    display: flex;
+    flex-direction: row;
+    width: 1428px;
+    height: 472px;
+}
+
+.participation {
+    width: 732px;
+    height: 472px;
+    margin-right: 4px;
+    background-image: url("../img/footer-left.png");
+    background-color: rgba(72, 146, 71, 0.89);
+}
+
+.project-icon-f {
+    width: 100px;
+    height: 100px;
+    margin: 24px 0px 0px 224px;
+}
+
+.part-text {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin: 24px 0px 74px 72px;
+}
+
+.part-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.part-button {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    width: 240px;
+    height: 44px;
+    border: 2px solid #FCFF81;
+    cursor: pointer;
+    margin-left: 72px;
+    background: rgba(25, 69, 24, 0.32);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 8px;
+}
+
+.contacts {
+    width: 692px;
+    height: 472px;
+    background-image: url("../img/footer-right.png");
+    background-color: rgba(72, 146, 71, 0.89);
+}
+
+.cont-text-m {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 48px;
+}
+
+.cont-text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.cont-line {
+    width: 580px;
+    height: 12px;
+    border-bottom: 1px solid #1d1b1b;
+    margin-left: 20px;
+}
+
+.subscr {
+    display: flex;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    margin-left: 20px;
+    justify-content: center;
+    width: 320px;
+    height: 44px;
+    border: 1px solid #FCFF81;
+    cursor: pointer;
+    background-color: rgba(72, 146, 71, 0.01);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 8px;
+}
+
+.social-f {
+    margin-top: 60px;
+}
+
+.social-icon-f {
+    padding: 0px 16px;
+}
+
+.footer-down {
+    background-color: #489247;
+    height: 172px;
+    padding-right: 72px;
+    margin-top: 8px;
+}
+
+.footer-navbar {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 39px;
+    text-align: justify;
+    color: #FFFFFF;
+    padding: 24px 0px 4px 78px;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    /*padding: 14px 16px*/
+    padding-top: 20px;
+    padding-left: 78px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    text-decoration-line: underline;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  /*.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }*/
+
+  .topnav-search {
+    width: 400px;
+    height: 44px;
+    float: right;
+    border: 1px solid #B4B4B4;
+    margin-bottom: 60px;
+  }
+
+  .search-icon {
+    background-color: #489247;
+    float: left;
+    padding: 6px 6px 0px 6px;
+    margin: 4px 16px 0px 8px;
+    cursor: pointer;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin: 6px 96px 0px 8px;
+    font-size: 17px;
+    color: #1d1b1b;
+  }
+
+  /*.topnav placeholder {
+    color: #FCFF81;
+  }*/
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
